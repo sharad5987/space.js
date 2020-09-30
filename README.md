@@ -1,9 +1,9 @@
 # Space.js
 A HTML-driven JavaScript-library for narrative 3D-scrolling.
 
-See the demos [here](http://www.slashie.org/space.js/)
+See the demos [here](http://www.slashie.org/space.js/) .
 
-**NOTE THAT SHOULD BE CONSIDERED TO BE BETA SOFTWARE**
+**NOTE : THAT SHOULD BE CONSIDERED TO BE BETA SOFTWARE**
 *Production use is not recommended at this point.*
 
 ## Usage
@@ -22,7 +22,7 @@ See the demos [here](http://www.slashie.org/space.js/)
 
 The library is HTML-driven, which means that you don't need to write a single line of JavaScript to use it on your site and still have a lot of flexibility!
 
-The core of the library is to divide our HTML into frames, or *space-frames* as we call them her (to not conflict the common class name "frame").
+The core of the library is to divide our HTML into frames, or *space-frames* as we call them here (to not conflict the common class name "frame").
 
 
 ### Creating a frame
@@ -41,7 +41,7 @@ I would also **strongly** recommend using an inner-frame inside the space-frame,
 ```
 
 ### Custom duration
-If we want we can provide a custom duration for our frames with the data-duration attribute, which multiplies the default duration of the transition.
+If we want, we can provide a custom duration for our frames with the data-duration attribute, which multiplies the default duration of the transition.
 
 ```html
 <section class="space-frame" data-duration="1.4">...</section>
@@ -50,7 +50,7 @@ If we want we can provide a custom duration for our frames with the data-duratio
 
 
 ### Options
-Space.js has a default default transition - which is to enter by fading in and exit by scaling up and fading out. We can also provide a custom transition override to the library from predefined transitions. (We can also create our own transitions from scratch, but we'll get to that later.)
+Space.js has a default transition - which is to enter by fading in and exit by scaling up and fading out. We can also provide a custom transition override to the library from predefined transitions. (We can also create our own transitions from scratch, but we'll get to that later.)
 
 ```html
 <section class="space-frame" data-transition="rotate360">...</section>
